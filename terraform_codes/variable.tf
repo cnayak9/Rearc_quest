@@ -2,12 +2,6 @@ variable "region" {
   default = "us-east-1"
 
 }
-/*variable "access_key" {
-
-}
-variable "secret_key" {
-
-}*/
 variable "key_name" {
   type    = string
   default = "Ubuntu_Key"
@@ -26,24 +20,4 @@ variable "secret_key" {
   sensitive   = true
 }
 ##################################
-/*variable "pub-sub" {
-  default = {
-    "rearc-pub-sub_1" = 0
-    "rearc-pub-sub_2" = 1
-  }
-
-}
-variable "priv-sub" {
-  default = {
-    "rearc-priv-sub_1" = 0
-    "rearc-priv-sub_2" = 1
-  }
-
-}*/
-##################################
-/*variable "sg_ports" {
-  type        = list(number)
-  description = "list of inbound port"
-
-}*/
 
