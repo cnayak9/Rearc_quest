@@ -16,7 +16,7 @@ resource "aws_security_group" "app_sg" {
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
-########## port 22 cidr use as per requirement#########
+########## port 22 cidr use as per requirement, it is optional for this task#########
   ingress {
     from_port   = 22
     to_port     = 22
