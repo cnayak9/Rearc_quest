@@ -2,7 +2,7 @@ variable "region" {
   default = "us-east-1"
 
 }
-### Ec2 key pare use optional if you are accessing the instance using port 22###
+### Ec2 key pare is optional to use if you are accessing the instance using port 22###
 variable "key_name" {
   type    = string
   default = "Ubuntu_Key"
